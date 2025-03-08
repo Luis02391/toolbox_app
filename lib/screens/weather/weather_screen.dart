@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:toolbox_app/screens/weather/weather_result.dart';
-import '../../services/weather/weather_service.dart';
+
 import '../../models/weather_model.dart';
+import '../../services/weather/weather_service.dart';
 
 class WeatherScreen extends StatefulWidget {
   const WeatherScreen({super.key});
@@ -32,16 +33,16 @@ class _WeatherScreenState extends State<WeatherScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white, // Fondo blanco
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Text(
           'Clima en RD',
-          style: TextStyle(color: Colors.black), // Texto negro
+          style: TextStyle(color: Colors.black),
         ),
         centerTitle: true,
-        backgroundColor: Colors.white, // Barra de navegación blanca
-        elevation: 0, // Quita la sombra de la barra
-        iconTheme: const IconThemeData(color: Colors.black), // Íconos en negro
+        backgroundColor: Colors.white,
+        elevation: 0,
+        iconTheme: const IconThemeData(color: Colors.black),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -51,8 +52,8 @@ class _WeatherScreenState extends State<WeatherScreen> {
             ? WeatherResult(weather: _weather!)
             : const Center(
           child: Text(
-            'No se pudo obtener el clima.',
-            style: TextStyle(fontSize: 18),
+                      'No se pudo obtener el clima',
+                      style: TextStyle(fontSize: 18),
           ),
         ),
       ),

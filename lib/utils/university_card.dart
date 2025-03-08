@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../../models/university_model.dart';
 
 class UniversityCard extends StatelessWidget {
@@ -24,7 +25,6 @@ class UniversityCard extends StatelessWidget {
             Text('Dominio: ${university.domain}'),
             const SizedBox(height: 8),
             GestureDetector(
-              onTap: () => launchUrl(university.webPage),
               child: Text(
                 university.webPage,
                 style: const TextStyle(color: Colors.blue, decoration: TextDecoration.underline),
@@ -34,9 +34,5 @@ class UniversityCard extends StatelessWidget {
         ),
       ),
     );
-  }
-
-  void launchUrl(String url) {
-    // Implementación para abrir el navegador
   }
 }

@@ -14,7 +14,7 @@ class MenuScreen extends StatelessWidget {
         crossAxisCount: 2,
         padding: const EdgeInsets.all(16.0),
         children: const [
-          MenuItem(title: 'Género', icon: Icons.person, route: '/gender'),
+          MenuItem(title: 'Genero', icon: Icons.person, route: '/gender'),
           MenuItem(title: 'Edad', icon: Icons.cake, route: '/age'),
           MenuItem(
               title: 'Universidades',
@@ -22,7 +22,7 @@ class MenuScreen extends StatelessWidget {
               route: '/universities'),
           MenuItem(title: 'Clima RD', icon: Icons.cloud, route: '/weather'),
           MenuItem(
-              title: 'Pokémon',
+              title: 'Pokemon',
               icon: Icons.catching_pokemon,
               route: '/pokemon'),
           MenuItem(title: 'Noticias', icon: Icons.article, route: '/news'),

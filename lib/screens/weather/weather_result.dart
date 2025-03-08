@@ -30,7 +30,7 @@ class WeatherResult extends StatelessWidget {
             style: const TextStyle(fontSize: 18, fontStyle: FontStyle.italic),
           ),
           const SizedBox(height: 10),
-          _weatherDetailRow(Icons.thermostat, 'Sensación térmica: ${weather.feelsLike}°C'),
+          _weatherDetailRow(Icons.thermostat, 'Sensacion termica: ${weather.feelsLike}°C'),
           _weatherDetailRow(Icons.water_drop, 'Humedad: ${weather.humidity}%'),
           _weatherDetailRow(Icons.air, 'Viento: ${weather.windSpeed} km/h'),
         ],

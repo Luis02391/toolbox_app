@@ -3,8 +3,8 @@ import 'package:toolbox_app/screens/about_screen.dart';
 import 'package:toolbox_app/screens/age/age_prediction_screen.dart';
 import 'package:toolbox_app/screens/gender/gender_prediction_screen.dart';
 import 'package:toolbox_app/screens/menu_screen.dart';
-import 'package:toolbox_app/screens/news_screen.dart';
-import 'package:toolbox_app/screens/pokemon_screen.dart';
+import 'package:toolbox_app/screens/news/news_screen.dart';
+import 'package:toolbox_app/screens/pokemon/pokemon_screen.dart';
 import 'package:toolbox_app/screens/university/university_list_screen.dart';
 import 'package:toolbox_app/screens/weather/weather_screen.dart';
 

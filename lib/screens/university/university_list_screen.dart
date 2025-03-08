@@ -44,7 +44,7 @@ class _UniversityListScreenState extends State<UniversityListScreen> {
             TextField(
               controller: _countryController,
               decoration: InputDecoration(
-                labelText: 'Ingrese un país en inglés',
+                labelText: 'Ingrese un pais en ingles',
                 border:
                     OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
               ),
